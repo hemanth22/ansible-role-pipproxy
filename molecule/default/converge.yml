@@ -3,8 +3,6 @@
   hosts: all
   become: true
   gather_facts: false
-  vars:
-    ec2_secret_key: "{{ lookup('env', 'mirror_pypi_url') }}"
   roles:
     - role: hemanth22.jenkins
       tags: molecule-idempotence-notest
