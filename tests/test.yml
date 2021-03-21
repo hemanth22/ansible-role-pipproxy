@@ -5,4 +5,4 @@
   vars:
     mirror_pypi_url: originaljfrogdetails
   roles:
-    - pipproxy
+    - hemanth22.pipproxy
