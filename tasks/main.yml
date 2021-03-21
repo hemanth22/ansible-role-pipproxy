@@ -1,0 +1,12 @@
+---
+- name: pip configuration in etc
+  ansible.builtin.file:
+    path: /etc/pip.conf
+    state: touch
+    mode: '0644'
+
+- name: Template a file to /etc/pip.conf
+  ansible.builtin.template:
+    src: pip.conf
+    dest: /etc/pip.conf
+    mode: '0644'
