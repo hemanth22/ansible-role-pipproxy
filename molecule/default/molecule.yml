@@ -18,7 +18,6 @@ platforms:
 provisioner:
   name: ansible
   env:
-    ANSIBLE_KEY: $access_key
-    ANSIBLE_VAL: $secret_key
+    mirror_pypi_url: $mirror_pypi_url
   playbooks:
     converge: ${MOLECULE_PLAYBOOK:-converge.yml}
