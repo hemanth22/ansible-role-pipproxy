@@ -4,5 +4,5 @@
   become: true
   gather_facts: false
   roles:
-    - role: hemanth22.jenkins
+    - role: hemanth22.pipproxy
       tags: molecule-idempotence-notest
