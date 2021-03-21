@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: pipproxy
   author: hemanth22
   description: This role configures pip with proxy with jfrog
   license: MIT / BSD
