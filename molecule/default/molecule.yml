@@ -17,7 +17,5 @@ platforms:
     pre_build_image: true
 provisioner:
   name: ansible
-  env:
-    mirror_pypi_url: $mirror_pypi_url
   playbooks:
     converge: ${MOLECULE_PLAYBOOK:-converge.yml}
