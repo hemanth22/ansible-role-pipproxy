@@ -12,6 +12,4 @@ galaxy_info:
     - pip
     - centos
     - devops
-
 dependencies: []
-
